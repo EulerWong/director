@@ -527,7 +527,7 @@ endif()
 if(USE_OPENNI2_LCM)
 
   ExternalProject_Add(openni2-camera-lcm
-    GIT_REPOSITORY https://github.com/openhumanoids/openni2-camera-lcm
+    GIT_REPOSITORY https://github.com/eulerwong/openni2-camera-lcm
     GIT_TAG 6bd5573
     ${cmake3_args}
     CMAKE_CACHE_ARGS
