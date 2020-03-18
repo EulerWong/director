@@ -404,7 +404,7 @@ endif()
 if(USE_KINECT)
 
   ExternalProject_Add(openni2-camera-lcm
-    GIT_REPOSITORY https://github.com/eulerwong/openni2-camera-lcm
+    GIT_REPOSITORY https://github.com/openhumanoids/openni2-camera-lcm
     #GIT_TAG 4d7b6d219e46cd964d5e54bfce7444a64d88a38e
     CMAKE_CACHE_ARGS
       ${default_cmake_args}
